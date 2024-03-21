@@ -11,9 +11,9 @@ public class ExerciceAvecThreads {
 
         Scenario s = makeScenario();
         // On cree les bandeaux
-        Bandeau b1 = new Bandeau();
-        Bandeau b2 = new Bandeau();
-        Bandeau b3 = new Bandeau();
+        BandeauVerrouillage b1 = new BandeauVerrouillage();
+        BandeauVerrouillage b2 = new BandeauVerrouillage();
+        BandeauVerrouillage b3 = new BandeauVerrouillage();
         System.out.println("CTRL-C pour terminer le programme");
         // On doit jouer le scénario en même temps sur les trois bandeaux
         s.playOn(b1);
